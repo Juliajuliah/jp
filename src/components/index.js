@@ -138,3 +138,37 @@ export const IndexH1 = styled.h1`
   padding-top: 4%;
   padding-bottom: 5%;
 `;
+
+export const CarouselProvider = styled.div`
+position:absolut;  
+width: 100%;
+  height: 50%;
+`;
+
+export const Slider = styled.div`
+position:absolut;
+  width: 100%;
+  height: 50%;
+`;
+
+export const Slide = styled.div`
+  width: auto;
+  height: auto;
+  padding: 0%;
+  margin: 0%;
+`;
+
+export const ButtonBack = styled.button`
+position: relative;
+  width: 10%;
+  height: 10%;
+  padding: 0%;
+  margin: 0%;
+`;
+export const ButtonNext = styled.button`
+position: relative;
+  width: 10%;
+  height: 10%;
+  padding: 0%;
+  margin: 0%;
+`;
