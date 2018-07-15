@@ -143,12 +143,14 @@ export const CarouselProvider = styled.div`
 position:absolut;  
 width: 100%;
   height: 50%;
+  border: solid blue;
 `;
 
 export const Slider = styled.div`
 position:absolut;
   width: 100%;
   height: 50%;
+  border: solid green;
 `;
 
 export const Slide = styled.div`
@@ -156,10 +158,12 @@ export const Slide = styled.div`
   height: auto;
   padding: 0%;
   margin: 0%;
-`;
+  border: solid yellow;
+  `;
 
 export const ButtonBack = styled.button`
 position: relative;
+border: solid coral;
   width: 10%;
   height: 10%;
   padding: 0%;
@@ -167,8 +171,15 @@ position: relative;
 `;
 export const ButtonNext = styled.button`
 position: relative;
+border: solid coral;
   width: 10%;
   height: 10%;
   padding: 0%;
   margin: 0%;
+`;
+
+export const SlideStyle = styled.div`
+border: solid pink;
+color: blue;
+background: green;
 `;
